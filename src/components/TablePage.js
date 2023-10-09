@@ -6,11 +6,6 @@ import EditPolicyPage from "./EditPolicyPage";
 export default function TablePage(){
     const [objectToBeEdit, toggleObjectToEdit]=useState(null)
     const [editing,toggleEditing]=useState(false);
-    const [cid,setId]=useState(null);
-    const [cname,setName]=useState(null);
-    const [cpolicy,setPolicy]=useState(null);
-    const [caddress,setAddress]=useState(null);
-    const [cemail,setEmail]=useState(null);
     const [del,toggleDel]=useState(false);
     const [data,setData]=useState([]);
     const [loading,setLoading]=useState(true);

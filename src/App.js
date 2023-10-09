@@ -4,7 +4,7 @@ import Header from "./components/Header";
 import TablePage from "./components/TablePage";
 import CreatePolicyPage from "./components/CreatePolicyPage";
 import {ToastContainer} from "react-toast";
-import EditPolicyPage from "./components/EditPolicyPage";
+// import EditPolicyPage from "./components/EditPolicyPage";
 
 function App() {
   return(
@@ -14,8 +14,7 @@ function App() {
           <Routes>
               <Route path={"/"} element={<TablePage/>}/>
               <Route path={"/createPolicy"} element={<CreatePolicyPage/>} />
-              <Route path={"/editPolicy"} element={<EditPolicyPage/>} />
-
+              {/*<Route path={"/editPolicy"} element={<EditPolicyPage/>} />*/}
           </Routes>
       </BrowserRouter>
   )

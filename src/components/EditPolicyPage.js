@@ -47,7 +47,7 @@ export default function EditPolicyPage(props){
     }
     return(
         <div className={"w-full backdrop-blur-sm absolute min-h-screen grid place-items-center"}>
-            <div className={"grid overflow-hidden p-4 md:p-0 w-full min-h-screen place-items-center"}>
+            <div className={"grid overflow-hidden md:p-0 w-full min-h-screen place-items-center"}>
                 <form onSubmit={submitData} className={"md:w-1/3 w-full rounded-sm p-2 bg-gray-300 md:h-1/2 flex flex-col"}>
                     {/*<input ref={id}  placeholder={"ID"} className={"w-full p-2 font-mono focus:outline-none rounded-sm my-1 h-10 bg-white"} type={"text"}/>*/}
                     <div className={"w-full my-2 h-6 flex flex-row-reverse"}>
